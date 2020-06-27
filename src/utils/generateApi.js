@@ -15,3 +15,4 @@ const generateApi = (url, method, data, params) =>
         );
 
 export const fetchCheckoutSession = (data) => generateApi("/checkout-session", "POST", data);
+export const fetchCheckoutSessionUseProduct = (data) => generateApi("/checkout-product", "POST", data);

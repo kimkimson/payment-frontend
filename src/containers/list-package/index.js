@@ -3,7 +3,7 @@ import { useStripe } from "@stripe/react-stripe-js";
 
 import { PackageItem } from "components";
 import { packages as PACKAGES } from "./mock.data";
-import { fetchCheckoutSession } from "utils/generateApi";
+import { fetchCheckoutSessionUseProduct } from "utils/generateApi";
 
 import "./style.scss";
 
@@ -12,7 +12,7 @@ const ListPackage = () => {
     async function handleClickPlaceHolder(packageProduct) {
         try {
             const payload = { package: packageProduct };
-            const { data } = await fetchCheckoutSession(payload);
+            const { data } = await fetchCheckoutSessionUseProduct(payload);
             const { id: sessionId } = data;
             const { error } = await stripe.redirectToCheckout({ sessionId });
             if (error) {
@@ -20,6 +20,7 @@ const ListPackage = () => {
             }
         } catch (error) {
             console.log(error);
+            alert("Please try again");
         }
     }
     return (
