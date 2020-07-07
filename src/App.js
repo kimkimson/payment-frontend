@@ -9,8 +9,6 @@ import { CheckoutSuccess, CheckoutFormHooks, ListPackage } from "./containers";
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_CLIENT_ID);
 
 function App() {
-    const PayPal = window.paypal.Buttons.driver;
-    console.log(PayPal);
     return (
         <Router>
             <Switch>
