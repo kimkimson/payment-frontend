@@ -4,7 +4,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
 import { PayPalButton } from "components";
-import { CheckoutSuccess, CheckoutFormHooks, ListPackage } from "./containers";
+import { CheckoutSuccess, CheckoutFormHooks, ListPackage, ListProduct } from "./containers";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_CLIENT_ID);
 
@@ -18,6 +18,7 @@ function App() {
                     <Route path="/checkout-success" exact component={CheckoutSuccess} />
                 </Elements>
             </Switch>
+            <ListProduct />
             <PayPalButton />
         </Router>
     );
