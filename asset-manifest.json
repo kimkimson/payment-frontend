@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kimkimson.github.io/frontend-payment/static/css/main.eb46cc77.chunk.css",
-    "main.js": "/kimkimson.github.io/frontend-payment/static/js/main.2ccf7655.chunk.js",
-    "main.js.map": "/kimkimson.github.io/frontend-payment/static/js/main.2ccf7655.chunk.js.map",
-    "runtime-main.js": "/kimkimson.github.io/frontend-payment/static/js/runtime-main.0ed5cf64.js",
-    "runtime-main.js.map": "/kimkimson.github.io/frontend-payment/static/js/runtime-main.0ed5cf64.js.map",
-    "static/js/2.ebec0fd0.chunk.js": "/kimkimson.github.io/frontend-payment/static/js/2.ebec0fd0.chunk.js",
-    "static/js/2.ebec0fd0.chunk.js.map": "/kimkimson.github.io/frontend-payment/static/js/2.ebec0fd0.chunk.js.map",
-    "index.html": "/kimkimson.github.io/frontend-payment/index.html",
-    "precache-manifest.cf38dfa071811d0b4ed1b2e2e06a7878.js": "/kimkimson.github.io/frontend-payment/precache-manifest.cf38dfa071811d0b4ed1b2e2e06a7878.js",
-    "service-worker.js": "/kimkimson.github.io/frontend-payment/service-worker.js",
-    "static/css/main.eb46cc77.chunk.css.map": "/kimkimson.github.io/frontend-payment/static/css/main.eb46cc77.chunk.css.map",
-    "static/js/2.ebec0fd0.chunk.js.LICENSE.txt": "/kimkimson.github.io/frontend-payment/static/js/2.ebec0fd0.chunk.js.LICENSE.txt"
+    "main.css": "/frontend-payment/static/css/main.eb46cc77.chunk.css",
+    "main.js": "/frontend-payment/static/js/main.c8ef28a9.chunk.js",
+    "main.js.map": "/frontend-payment/static/js/main.c8ef28a9.chunk.js.map",
+    "runtime-main.js": "/frontend-payment/static/js/runtime-main.5e9e6364.js",
+    "runtime-main.js.map": "/frontend-payment/static/js/runtime-main.5e9e6364.js.map",
+    "static/js/2.39f77c20.chunk.js": "/frontend-payment/static/js/2.39f77c20.chunk.js",
+    "static/js/2.39f77c20.chunk.js.map": "/frontend-payment/static/js/2.39f77c20.chunk.js.map",
+    "index.html": "/frontend-payment/index.html",
+    "precache-manifest.2519b7949042b7385d2971321174b9c4.js": "/frontend-payment/precache-manifest.2519b7949042b7385d2971321174b9c4.js",
+    "service-worker.js": "/frontend-payment/service-worker.js",
+    "static/css/main.eb46cc77.chunk.css.map": "/frontend-payment/static/css/main.eb46cc77.chunk.css.map",
+    "static/js/2.39f77c20.chunk.js.LICENSE.txt": "/frontend-payment/static/js/2.39f77c20.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ed5cf64.js",
-    "static/js/2.ebec0fd0.chunk.js",
+    "static/js/runtime-main.5e9e6364.js",
+    "static/js/2.39f77c20.chunk.js",
     "static/css/main.eb46cc77.chunk.css",
-    "static/js/main.2ccf7655.chunk.js"
+    "static/js/main.c8ef28a9.chunk.js"
   ]
 }
