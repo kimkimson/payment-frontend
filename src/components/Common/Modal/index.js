@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
 	position: relative;
 	background-color: rgba(0, 0, 0, 0.45);
-	z-index: 9000;
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -42,10 +41,14 @@ const Content = styled.div`
 const Modal = (props) => {
 	const { show, title, width, top, height, onClose } = props;
 
+	useEffect(() => {
+		// document.body.style.overflow = show ? 'hidden' : 'auto';
+	}, [show]);
+
 	return (
 		<React.Fragment>
 			{show && (
-				<div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, right: 0 }}>
+				<div style={{ position: 'fixed', top: 0, left: 0, bottom: 0, right: 0, zIndex: 100000 }}>
 					<Wrapper>
 						<Content width={width} top={top}>
 							<div id='header'>

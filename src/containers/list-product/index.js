@@ -38,7 +38,7 @@ const ListProduct = () => {
 	return (
 		<Wrapper>
 			{products.map((item) => (
-				<ProductItem product={item} buyNow={buyNow} />
+				<ProductItem product={item} buyNow={buyNow} key={item.sku} />
 			))}
 			<Modal show={showPopupByNow} onClose={handleShowPopup} />
 		</Wrapper>
